@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   
     # dependency
     s.dependency 'FirebaseDynamicLinks', '~> 8.11'
-    s.dependency 'TerraLink', '~> 1.0'
+    s.dependency 'TerraLink', '~> 2.0'
 
   
   end
