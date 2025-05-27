@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
   
     s.dependency 'SwiftyJSON', '~> 5.0'
     s.dependency 'TerraInstancesManager', '~> 4.1'
-    s.dependency 'TekIdentityService', '~> 4.1'
+    s.dependency 'TekIdentityService', '4.2.0-IAM1901.1'
   end
