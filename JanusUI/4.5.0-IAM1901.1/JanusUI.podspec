@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
     
     s.vendored_frameworks = 'JanusUI.xcframework'
   
-    s.dependency 'Janus', '4.4.0-IAM1901.1'
+    s.dependency 'Janus', '~> 4.4.0-IAM1901'
     s.dependency 'JanusFacebook', '~> 5.2'
     s.dependency 'JanusGoogle', '~> 4.1'
     s.dependency 'JanusApple', '~> 4.1'
@@ -36,5 +36,5 @@ Pod::Spec.new do |s|
     s.dependency 'TekLocalize', '~> 1.1'
     s.dependency 'SnapKit', '~> 5.7'
     s.dependency 'HestiaBridgeWebView', '~> 2.1'
-    s.dependency 'JanusRecaptcha', '0.1.0-IAM1901.1'
+    s.dependency 'JanusRecaptcha', '~> 0.1.0-IAM1901'
   end
