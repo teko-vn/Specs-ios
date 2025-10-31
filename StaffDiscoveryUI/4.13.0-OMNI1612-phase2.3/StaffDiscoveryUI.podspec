@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { '$(git config user.name)' => '$(git config user.email)' }
     s.source           = {
-                           :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/310492258',
+                           :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/310778042',
                            :type => 'zip',
                            :headers => [
                              'Authorization: token ' + ENV['GITHUB_USER_TOKEN'],
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
     s.dependency 'DifferenceKit'
 
     s.dependency 'TerraInstancesManager', '~> 4.1'
-    s.dependency 'TekDiscoveryEvent', '11.5.0-OMNI1612.1'
+    s.dependency 'TekDiscoveryEvent', '~> 11.4'
     s.dependency 'TekWmsService', '~> 2.0'
     s.dependency 'TekLocalize', '~> 1.1'
     s.dependency 'Apollo', '~> 4.4'
