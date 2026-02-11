@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/teko-vn/Specs-ios'
   s.author           = { 'Cart' => 'cart-platform@teko.vn' }
   s.source           = {
-                         :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/354054089',
+                         :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/354163787',
                          :type => 'zip',
                          :headers => [
                            'Authorization: token ' + ENV['GITHUB_USER_TOKEN'],
