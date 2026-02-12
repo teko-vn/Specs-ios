@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/teko-vn/Specs-ios'
   s.author           = { 'Cart' => 'cart-platform@teko.vn' }
   s.source           = {
-                         :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/354640486',
+                         :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/354652590',
                          :type => 'zip',
                          :headers => [
                            'Authorization: token ' + ENV['GITHUB_USER_TOKEN'],
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   s.dependency 'TekoTracker', '~> 2.3'
 
   # Loyalty
-  s.dependency 'LoyaltyComponent', '~> 4.1'
+  s.dependency 'LoyaltyComponent', '4.2.0-MOBCOMMON-8508.3'
 
   # Localize
   s.dependency 'TekLocalize', '~> 1.1'
