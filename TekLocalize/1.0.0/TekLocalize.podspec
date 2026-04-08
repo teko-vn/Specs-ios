@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { '$(git config user.name)' => '$(git config user.email)' }
     s.source           = {
-                           :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/163504687',
+                           :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/391493547',
                            :type => 'zip',
                            :headers => [
                              'Authorization: token ' + ENV['GITHUB_USER_TOKEN'],
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
-    s.ios.deployment_target = '12.0'
+    s.ios.deployment_target = '15.0'
   
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
@@ -42,8 +42,8 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = 'TekLocalize.xcframework'
   
     # dependency
-    s.dependency 'TerraInstancesManager', '~> 4.0'
-    s.dependency 'Hermes', '~> 2.0'
-    s.dependency 'HermesExtension', '~> 2.0'
+    s.dependency 'TerraInstancesManager', '~> 5.0'
+    s.dependency 'Hermes', '~> 3.0'
+    s.dependency 'HermesExtension', '~> 3.0'
 
   end
