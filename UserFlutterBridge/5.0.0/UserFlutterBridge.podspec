@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { '$(git config user.name)' => '$(git config user.email)' }
     s.source           = {
-                           :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/393178532',
+                           :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/395345184',
                            :type => 'zip',
                            :headers => [
                              'Authorization: token ' + ENV['GITHUB_USER_TOKEN'],
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
                            ]
                          }
   
-    s.ios.deployment_target = '12.0'
+    s.ios.deployment_target = '15.0'
   
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
     s.vendored_frameworks = 'UserFlutterBridge.xcframework'
   
-    s.dependency 'TerraInstancesManager', '~> 4.1'
-    s.dependency 'TekLocalize', '~> 1.1'
-    s.dependency 'TekoTracker', '~> 2.3'
+    s.dependency 'TerraInstancesManager', '~> 5.0'
+    s.dependency 'TekLocalize', '~> 2.0'
+    s.dependency 'TekoTracker', '~> 3.0'
     s.dependency 'GoogleMLKit/BarcodeScanning', '~> 5.0'
   end
