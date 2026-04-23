@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/teko-vn/Specs-ios'
   s.author           = { 'Cart' => 'cart-platform@teko.vn' }
   s.source           = {
-                         :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/403065880',
+                         :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/403080948',
                          :type => 'zip',
                          :headers => [
                            'Authorization: token ' + ENV['GITHUB_USER_TOKEN'],
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                           ]
                         }
 
-  s.ios.deployment_target = '15.0'
+  s.ios.deployment_target = '12.0'
 
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
@@ -37,26 +37,26 @@ Pod::Spec.new do |s|
   s.dependency 'abseil'
 
   # Terra
-  s.dependency 'Terra', '~> 5.0'
-  s.dependency 'TerraInstancesManager', '~> 5.0'
+  s.dependency 'Terra', '~> 4.1'
+  s.dependency 'TerraInstancesManager', '~> 4.1'
 
   # Bridge
-  s.dependency 'TerraJsBridge', '~> 2.0'
-  s.dependency 'CommonBridgeCommand', '~> 2.0'
-  s.dependency 'HestiaBridgeWebView', '~> 3.0'
+  s.dependency 'TerraJsBridge', '~> 1.1'
+  s.dependency 'CommonBridgeCommand', '~> 1.1'
+  s.dependency 'HestiaBridgeWebView', '~> 2.1'
 
   # Apollo
-  s.dependency 'Apollo', '~> 5.0'
-  s.dependency 'ApolloTheme' , '~> 3.0'
+  s.dependency 'Apollo', '~> 4.4'
+  s.dependency 'ApolloTheme' , '~> 2.1'
 
   # Tracker
-  s.dependency 'TekoTracker', '~> 3.0'
+  s.dependency 'TekoTracker', '~> 2.3'
 
   # Loyalty
-  s.dependency 'LoyaltyComponent', '~> 5.0'
+  s.dependency 'LoyaltyComponent', '~> 4.2'
 
   # Localize
-  s.dependency 'TekLocalize', '~> 2.0'
+  s.dependency 'TekLocalize', '~> 1.1'
 
   # ui
   s.dependency 'Nuke', '~> 9.5'
