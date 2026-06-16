@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { '$(git config user.name)' => '$(git config user.email)' }
     s.source           = {
-                           :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/404020755',
+                           :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/449050512',
                            :type => 'zip',
                            :headers => [
                              'Authorization: token ' + ENV['GITHUB_USER_TOKEN'],
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
     s.dependency 'HestiaBridgeWebView', '~> 3.0'
     s.dependency 'CommonBridgeCommand', '~> 2.0'
     s.dependency 'JanusBridge', '~> 3.0'
-    s.dependency 'Apollo', '~> 5.0'
+    s.dependency 'Apollo', '5.3.0-ECOM489.1'
     s.dependency 'ApolloTheme', '~> 3.0'
     s.dependency 'TerraInstancesManager', '~> 5.0'
     s.dependency 'TekoTracker', '~> 3.0'
