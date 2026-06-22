@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/teko-vn/Specs-ios'
   s.author           = { 'Cart' => 'cart-platform@teko.vn' }
   s.source           = {
-                         :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/454351222',
+                         :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/454511277',
                          :type => 'zip',
                          :headers => [
                            'Authorization: token ' + ENV['GITHUB_USER_TOKEN'],
@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   s.dependency 'HestiaBridgeWebView', '~> 3.0'
 
   # Apollo
-  s.dependency 'Apollo', '~> 5.2'
+  s.dependency 'Apollo', '5.3.0-ECOM489.1'
   s.dependency 'ApolloTheme' , '~> 3.1'
 
   # Tracker
