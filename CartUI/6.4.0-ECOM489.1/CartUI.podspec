@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   s.dependency 'HestiaBridgeWebView', '~> 3.0'
 
   # Apollo
-  s.dependency 'Apollo', '5.3.0-ECOM489.1'
+  s.dependency 'Apollo', '~> 5.3'
   s.dependency 'ApolloTheme' , '~> 3.1'
 
   # Tracker
