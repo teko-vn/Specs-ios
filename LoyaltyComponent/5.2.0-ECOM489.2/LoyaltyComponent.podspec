@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     s.dependency 'TerraInstancesManager', '~> 5.0'
     s.dependency 'FittedSheets', '~> 1.4'
     s.dependency 'ApolloTheme', '~> 3.2'
-    s.dependency 'Apollo', '5.5.0-ECOM489.1'
+    s.dependency 'Apollo', '~> 5.4'
     s.dependency 'SkeletonView', '~> 1.30'
     s.dependency 'TekBarcodeReader', '~> 3.0'
     s.dependency 'TekLocalize', '~> 2.0'
