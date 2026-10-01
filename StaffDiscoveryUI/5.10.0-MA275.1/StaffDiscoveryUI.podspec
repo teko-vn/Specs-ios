@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { '$(git config user.name)' => '$(git config user.email)' }
     s.source           = {
-                           :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/556458916',
+                           :http => 'https://api.github.com/repos/teko-vn/Specs-ios/releases/assets/603061614',
                            :type => 'zip',
                            :headers => [
                              'Authorization: token ' + ENV['GITHUB_USER_TOKEN'],
@@ -49,7 +49,7 @@ Pod::Spec.new do |s|
     s.dependency 'CommonBridgeCommand', '~> 2.0'
     s.dependency 'TekoTracker', '~> 3.0'
     s.dependency 'ShopFrontWebCoreSDK', '~> 3.0'
-    s.dependency 'SmartBannerCore', '0.1.0-MA275.3'
-    s.dependency 'SmartBannerUI', '0.1.0-MA275.3'
+    s.dependency 'SmartBannerCore', '0.1.0-MA275.5'
+    s.dependency 'SmartBannerUI', '0.1.0-MA275.5'
 
   end
