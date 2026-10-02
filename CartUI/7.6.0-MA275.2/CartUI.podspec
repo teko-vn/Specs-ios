@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   s.dependency 'RxSwift', '~> 5'
 
   # SmartBanner
-  s.dependency 'SmartBannerCore', '0.1.0-MA275.3'
-  s.dependency 'SmartBannerUI', '0.1.0-MA275.3'
+  s.dependency 'SmartBannerCore', '0.1.0-MA275.5'
+  s.dependency 'SmartBannerUI', '0.1.0-MA275.5'
 
 end
